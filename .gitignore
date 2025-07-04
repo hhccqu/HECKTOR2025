@@ -1,0 +1,44 @@
+# 数据文件
+*.tar.gz
+*.zip
+*.nii.gz
+*.pt
+*.pth
+*.h5
+*.hdf5
+
+# 数据集目录
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+HECKTOR2025\ Task\ 1\ Training/
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp 
