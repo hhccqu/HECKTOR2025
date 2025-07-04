@@ -114,7 +114,7 @@ function Create-Tag {
     Write-Host "创建版本标签: $Version" -ForegroundColor Green
     git tag -a $Version -m $Message
     git push origin $Version
-    Write-Host "版本标签 '$Version' 创建成功" -ForegroundColor Green
+    Write-Host "Version tag '$Version' created successfully" -ForegroundColor Green
 }
 
 function List-Tags {
